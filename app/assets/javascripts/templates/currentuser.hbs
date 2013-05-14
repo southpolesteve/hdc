@@ -1,0 +1,8 @@
+{{#if loggedin}}
+  <p> Time to add some points! </p>
+{{else}}
+  <p>Give us your username to start adding points:</p>
+  {{view Ember.TextField valueBinding="username"}}
+
+  <button class="btn" {{action login}}>Let's Go!</button
+{{/if}}

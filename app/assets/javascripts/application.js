@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require ember-data-firebase
+//= require_self
+//= require hdc
+Hdc = Ember.Application.create();
+
 //= require_tree .
